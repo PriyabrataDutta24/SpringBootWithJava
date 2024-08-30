@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+ th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>About</title>
+</head>
+<body> 
+<section>
+<div class="container text-center mt-4 text-secondary  font-italic">
+	<div class="card">
+		<div class="card-body">
+		<div class="container text-center">
+				<img src="" style="height: 200px; width: 200px;"
+						class="my_profile_picture" th:src="@{'/img/contact_about.png'}"
+						alt="" />
+			</div>
+			
+		<h2 class="mt-3">SmartContact is a free open source platform for anyone in the world.
+		It help us by providing secure platform where people can store their contact. 
+		People can use it free of cost that help them when they want to secure
+		their own contact. All contact are upload on cloud that is acessable by
+		particular user.
+		The site offers no paid services and is funded entirely by advertising.</h2>
+		</div>
+	</div>
+</div>
+
+</section>
+	
+</body>
+</html>
